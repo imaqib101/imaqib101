@@ -16,20 +16,20 @@ Specializing in **Autonomous AI Agent Execution Engines**, **High-Density Reacti
 
 | System / Repository | Architecture Domain | Key Technical Highlights | Testing & Quality |
 | :--- | :--- | :--- | :--- |
-| **[`agentic-tool-orchestrator`](https://github.com/imaqib101/agentic-tool-orchestrator)** | **Autonomous AI Agent Runtime** | Dual Zod & Draft-07 JSON Schema validation, parallel tool execution, circuit breakers, jittered exponential backoff, and observable multi-turn reasoning loops. | 100% Vitest Suites, Strict TS |
+| **[`agentic-tool-orchestrator`](https://github.com/imaqib101/agentic-tool-orchestrator)** | **Autonomous AI Agent Runtime** | Dual Zod & Draft-07 JSON Schema validation, DAG execution planner (`ToolPlanDAG`) with topological batching & output reference resolution, onion-model middleware pipeline (caching, telemetry, rate limiting), circuit breakers, and jittered exponential retry backoff. | 100% Vitest Suites, Strict TS |
 | **[`react-agentic-stream-ui`](https://github.com/imaqib101/react-agentic-stream-ui)** | **Generative AI Copilot UI** | Composable React streaming hooks (`useAgenticStream`), deep reasoning accordions (`AgentReasoningAccordion`), multi-step execution timeline (`ToolCallTimeline`), and human-in-the-loop verification gates. | 100% Vitest Suites, CJS/ESM |
 | **[`react-concurrency-kit`](https://github.com/imaqib101/react-concurrency-kit)** | **Concurrent React Primitives** | Concurrency-limited async task queues (`useAsyncQueue`), optimistic mutation rollback guards, resilient auto-reconnecting SSE streams, and binary-search virtual list windowing. | 100% Vitest Suites, Strict TS |
-| **[`vue-composable-toolkit`](https://github.com/imaqib101/vue-composable-toolkit)** | **Enterprise Reactive Frontend** | High-performance virtual scrolling (`useVirtualList`), reactive form validation pipelines (`useFormValidation`), cross-tab storage sync (`useLocalStorageState`), and network telemetry (`useNetworkStatus`). | Vitest, Tree-shakeable ESM |
-| **[`nexus-api-gateway`](https://github.com/imaqib101/nexus-api-gateway)** | **Edge Proxy & Distributed Routing** | 5 adaptive routing algorithms (weighted round-robin, least connections, consistent IP-hash ring with virtual replicas, latency EMA), token-bucket rate limiter, and health check ejection. | Integration Test Suite |
-| **[`distributed-task-queue`](https://github.com/imaqib101/distributed-task-queue)** | **Backend Infrastructure & Queues** | Worker pool with dynamic concurrency control, strict priority scheduling (`CRITICAL` ➔ `LOW`), exponential backoff with jitter, DLQ error classification, and full DLQ redrive replay. | Concurrency & DLQ Specs |
+| **[`vue-composable-toolkit`](https://github.com/imaqib101/vue-composable-toolkit)** | **Enterprise Reactive Frontend** | Tree-shakeable Vue 3 composables: concurrency-controlled task queue (`useAsyncQueue`), reactive clipboard manager (`useClipboardState`), high-performance virtual scrolling (`useVirtualList`), reactive form validation pipelines (`useFormValidation`), and cross-tab storage sync (`useLocalStorageState`). | 100% Vitest Suites, Strict TS |
+| **[`nexus-api-gateway`](https://github.com/imaqib101/nexus-api-gateway)** | **Edge Proxy & Distributed Routing** | 7 adaptive routing strategies (Power of Two Choices / P2C, Canary routing with deterministic hash cohorts, Weighted Round-Robin, Least Connections, Consistent IP-Hash ring, Latency EMA), token-bucket rate limiter, failover ejection, and live HTTP integration tests. | Vitest HTTP Integration Suite |
+| **[`distributed-task-queue`](https://github.com/imaqib101/distributed-task-queue)** | **Backend Infrastructure & Queues** | Worker pool with adaptive auto-scaling concurrency, strict priority scheduling (`CRITICAL` ➔ `LOW`), exponential backoff with jitter, transient vs permanent DLQ categorization, selective batch redrive, and retention pruning. | Concurrency & DLQ Specs |
 
 ---
 
 ### ⚙️ Core Technical Capabilities
 
-- **AI & Agentic Systems**: Autonomous LLM tool dispatch, function calling schemas (OpenAI / Anthropic), multi-turn reasoning sandboxes, streaming copilot UIs, circuit breaking, and execution telemetry.
+- **AI & Agentic Systems**: Autonomous LLM tool dispatch, function calling schemas (OpenAI / Anthropic), DAG execution dependency planners, multi-turn reasoning sandboxes, streaming copilot UIs, circuit breaking, and execution telemetry.
 - **Frontend Systems Engineering**: React 18 & 19 (Hooks, Concurrency, Streaming), Vue 3 (Composition API), Vite, Pinia, virtual list windowing, reactive state synchronization, and accessible UI/UX components.
-- **Distributed Backend & Network**: API Gateway design, reverse proxies, consistent hashing, worker pools, asynchronous event queues, token bucket rate limiters, and Redis streams.
+- **Distributed Backend & Network**: API Gateway design, reverse proxies, Power of Two Choices (P2C) balancers, canary deployments, consistent hashing, adaptive worker pools, asynchronous event queues, token bucket rate limiters, and Redis streams.
 - **Testing & Verification**: Strict test-driven design (Vitest, Jest), deterministic mocking, network contract validation, and TypeScript compiler strictness.
 
 ---
