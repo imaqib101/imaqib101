@@ -13,6 +13,7 @@ Passionate about building resilient distributed systems, enterprise-grade fronte
 - **[Nexus API Gateway](https://github.com/imaqib101/nexus-api-gateway)**: High-throughput API Gateway & Reverse Proxy built with Node.js, TypeScript, circuit breaker fault tolerance, Redis rate limiting, and JWT auth.
 - **[Distributed Task Queue](https://github.com/imaqib101/distributed-task-queue)**: Resilient distributed asynchronous background job queue & task scheduler with Redis Streams, DLQ metrics monitoring, and exponential backoff.
 - **[React Concurrency Kit](https://github.com/imaqib101/react-concurrency-kit)**: Production React custom hooks & concurrency primitives for optimistic UI mutations and resilient data streaming.
+- **[CleanYourTV](https://github.com/iamaqib101/cleanyourtv)**: Lightweight Android TV debloater & minimalist Apple TV-style launcher toolkit, optimized for wireless management and ad-free viewing.
 
 ---
 
