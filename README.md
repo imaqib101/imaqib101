@@ -10,10 +10,10 @@ Passionate about building resilient distributed systems, enterprise-grade fronte
 
 - **[Agentic Tool Orchestrator](https://github.com/imaqib101/agentic-tool-orchestrator)**: Resilient autonomous LLM agent execution engine with dynamic tool dispatch, JSON Schema validation, execution telemetry, and multi-turn reasoning loops in strict TypeScript.
 - **[React Agentic Stream UI](https://github.com/imaqib101/react-agentic-stream-ui)**: Generative AI copilot streaming hooks, tool-call timeline visualizations, token stream renderers, and human-in-the-loop approvals for React.
-- **[Vue Composable Toolkit](https://github.com/imaqib101/vue-composable-toolkit)**: High-performance, tree-shakeable Vue 3 & TypeScript composables library featuring robust reactive utilities, SSR safety, and Vitest test suites (`useDebouncedQuery`, etc.).
+- **[Vue Composable Toolkit](https://github.com/imaqib101/vue-composable-toolkit)**: High-performance, tree-shakeable Vue 3 & TypeScript composables library featuring async retry controllers, dynamic virtual lists, cross-tab storage sync, and Vitest test suites.
 - **[Nexus API Gateway](https://github.com/imaqib101/nexus-api-gateway)**: High-throughput API Gateway & Reverse Proxy built with Node.js, TypeScript, circuit breaker fault tolerance, Redis rate limiting, and JWT auth.
 - **[Distributed Task Queue](https://github.com/imaqib101/distributed-task-queue)**: Resilient distributed asynchronous background job queue & task scheduler with Redis Streams, DLQ metrics monitoring, and exponential backoff.
-- **[React Concurrency Kit](https://github.com/imaqib101/react-concurrency-kit)**: Production React custom hooks & concurrency primitives for optimistic UI mutations and resilient data streaming.
+- **[React Concurrency Kit](https://github.com/imaqib101/react-concurrency-kit)**: Production React 18/19 custom hooks & concurrency primitives for optimistic UI mutations, dual-state debounced inputs, resilient SSE streaming, and layout virtualization.
 - **[CleanYourTV](https://github.com/iamaqib101/cleanyourtv)**: Lightweight Android TV debloater & minimalist Apple TV-style launcher toolkit, optimized for wireless management and ad-free viewing.
 
 ---
